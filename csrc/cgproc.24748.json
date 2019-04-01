@@ -1,0 +1,63 @@
+{
+    "Modules": {
+        "memwb": {},
+        "dataMem": {},
+        "...MASTER...": {},
+        "comparator": {},
+        "moduleB": {},
+        "idex": {
+            "Compiled": "Yes",
+            "Compiled Times": 2
+        },
+        "alu": {},
+        "exmem": {
+            "Compiled": "Yes",
+            "Compiled Times": 2
+        },
+        "forward": {},
+        "cpu_fixture": {}
+    },
+    "CompUnits": {
+        "amcQw_d": {
+            "mode": 4,
+            "mod": "...MASTER...",
+            "out": "amcQw_d.o",
+            "bytes": 7126,
+            "archive": "archive.393/_24748_archive_1.a"
+        },
+        "phehg_d": {
+            "mode": 4,
+            "mod": "idex",
+            "out": "phehg_d.o",
+            "bytes": 18052,
+            "archive": "archive.393/_24748_archive_1.a"
+        },
+        "WIYdr_d": {
+            "mode": 4,
+            "mod": "exmem",
+            "out": "WIYdr_d.o",
+            "bytes": 14415,
+            "archive": "archive.393/_24748_archive_1.a"
+        }
+    },
+    "ObjArchives": [
+        {
+            "archive": "archive.393/_24748_archive_1.a",
+            "objects": [
+                [
+                    "amcQw_d.o",
+                    7126
+                ],
+                [
+                    "phehg_d.o",
+                    18052
+                ],
+                [
+                    "WIYdr_d.o",
+                    14415
+                ]
+            ],
+            "size": 39593
+        }
+    ]
+}
